@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="Soltero (Sopa de Sucre Bolivia)"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 2 Nabos medianos pelados y rallados \n
+- 1 Zanahoria grande pelada y rallada \n
+- 1 Cabeza de cebolla grande picada finamente \n
+- 1 ramito de apio picado muy fino \n
+- 1 ramito de perejil picado muy fino \n
+- 1 Taza de arvejas \n
+- 1 Taza de granos de choclo (maiz) \n
+- ½ Kg de carne picada \n
+- Un chorro de aceite \n
+- 3 Papas medianas picadas en cubitos \n
+- 3 Cucharadas de ají colorado molido \n
+- 1 Cucharilla de pimienta molida \n
+- ½ Cucharilla de comino molido \n
+- 1 Cuchara de orégano desmenuzado \n
+- 2 Cubos de caldo \n
+- 2 Vasos de agua fría"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En una sartén con aceite caliente, colocar el nabo, zanahoria, apio, perejil, choclo desgranado, arvejas y freír hasta que todos los vegetales, estén doraditos, seguidamente agregar los 2 cubos de caldo y el ají colorado, revolver y agregar el agua, dejar cocer hasta que el aceite empiece a flotar por encima, entonces reservar.
+En una olla con agua hirviendo a fuego medio colocar la carne picadita y dejar hervir por 10 minutos, después agregar la anterior preparación, dejar hervir por 15 minutos más o hasta que la carne este suave, entonces agregar las papas y dejar hervir un poco más hasta que las papas estén tiernas.
+Cuando esto suceda, bajar del fuego y agregar el orégano, dejar descansar tapado por 5 minutos y servir.
+
+
+Nota: En esta sopa se puede agregar todos los ingredientes que uno desee, por ejemplo,  habas, chuño, achojchas, solo hay que tomar precaución de que estén picaditos.
+"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:padding="1dp"
+       android:layout_gravity="center"
+       android:src="@drawable/sopa1"
+       />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="THImpu"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- Carne de cordero considerando una presa por persona \n
+- Un poco de cebolla de verdeo picada finamente \n
+- 2 Papas cocidas por persona \n
+- ½ Kg de chuño pelado,  lavado, cocido y picado \n
+- Arroz blanco (Kaja) \n
+- Ají amarillo molido lo necesario \n
+- Media cucharilla de orégano desmenuzado \n
+- 1 Ramita de yerba buena"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En una olla con agua, hacer hervir el caldo con la carne de cordero, cuando este bien cocida, sacar la carne de cordero y reservar, dejar que el caldo enfríe muy bien y retirar la grasa que se formó con una espumadera, luego pasar por un colador y reservar en otra olla.
+Preparar un ahogado friendo en aceite bien caliente, la cebolla, ají amarillo y orégano, aumentar una o dos tazas de caldo y reservar.
+Servir la carne bien caliente bañada con el ahogado, acompañar con arroz blanco, chuño y papa.
+Servir el caldo aparte,  en un plato hondo."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:paddingTop="12dp"
+       android:layout_gravity="center"
+       android:src="@drawable/thimpu"
+       />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

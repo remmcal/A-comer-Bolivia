@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="CHAIRO"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- ½ Kg de carne de res \n
+- 1 Pedazo pequeño de chalona \n
+- 2 Zanahorias \n
+- 1 Platillo de habas y arvejas \n
+- 1 Cebolla \n
+- 2 Cucharas de ají colorado \n
+- 10 Papas peladas de tamaño mediano \n
+- ½ Taza de trigo cocido \n
+- ½  taza de mote pelado y cocido \n
+- 1 Platillo de chuño remojado y cocido \n
+- Sal y comino al gusto"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En una olla poner a cocer la carne picada en cubos grandes y la chalona, sazonar a gusto para hacer un caldo, agregar las arvejas y Abas, y la zanahoria cortada al hilo, cuando estén cocidas agregar, las papas cortadas al hilo, y el chuño bien lavado y molido, dejar cocer por unos minutos, añadir el trigo, el mote y el ají.
+Cuando esté listo servir decorado con perejil, finamente picado."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="match_parent"
+       android:padding="1dp"
+       android:layout_gravity="center"
+       android:src="@drawable/sopa5"
+       />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

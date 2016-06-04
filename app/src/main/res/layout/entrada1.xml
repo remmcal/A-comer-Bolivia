@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:textStyle="bold|italic"
+                android:text="soltero de queso"
+                android:textAllCaps="true"
+                android:textColor="#212121"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="italic|bold"
+                android:text="Ingredientes:para 6 personas"
+                android:textAllCaps="false"
+                android:textColor="#5D4037"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic|bold"
+                android:text="-¼ k de cebolla \n
+- ¼ k de tomate \n
+- ½ k de queso fresco \n
+- 3 choclos \n
+- 6 papas \n
+- ½ k de aceitunas negras \n
+- ½ k de habas verdes \n
+- 1 rocoto \n
+- Perejil \n
+- Orégano \n
+- Sal \n
+- Pimienta \n
+- Aceite \n
+- Vinagre "
+                android:textAllCaps="false"
+                android:textColor="#727272"
+                android:paddingTop="8dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="italic|bold"
+                android:text="Preparacion:"
+                android:textAllCaps="false"
+                android:textColor="#5D4037"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic|bold"
+                android:text="Para empezar a preparar el solterito de queso primero hay que sancochar las habas y los choclos, previamente desgranados. En tanto se van cocinando, debemos picar el queso y las aceitunas en cuadraditos. Luego hay que lavar la cebolla picada en agua con sal (mejor si podemos dejarla remojando por unos minutos) y escurrirla en un colador.
+Una vez que hemos mezclado todos los ingredientes, debemos sazonarlos con sal, vinagre, aceite, orégano, pimienta y perejil a nuestro gusto y servirlos con las papas sancochadas cortadas en rodajas.
+Como consejo final les recomiendo usar un aceite de maíz o de oliva para controlar el exceso de grasa. Y si desean que su sabor sea aún más penetrante, sirvan el platillo con un buen vaso de chicha de jora (más adelante prometo darles la receta de esta bebida espirituosa)."
+                android:textAllCaps="false"
+                android:textColor="#727272"
+                android:paddingTop="8dp"
+                />
+
+            <ImageView
+                android:layout_width="393dp"
+                android:layout_height="match_parent"
+                android:padding="1dp"
+                android:layout_gravity="center"
+                android:src="@drawable/entrada1"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:textStyle="bold|italic"
+                android:text="LOCRO CARRETERO"
+                android:textAllCaps="true"
+                android:textColor="#212121"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="italic|bold"
+                android:text="Ingredientes:"
+                android:textAllCaps="false"
+                android:textColor="#5D4037"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic|bold"
+                android:text="- 2 Lt. de agua \n
+- ½ kg de charque o cecina picada en trozos medianos \n
+- 1 Cebolla mediana \n
+- 1 Taza de arroz \n
+- 1 Cucharilla de orégano \n
+- 6 Huevos \n
+- Sal y condimentos al gusto \n
+- 1 Yuca picada en trozos (se puede remplazar por plátano verde picado)"
+                android:textAllCaps="false"
+                android:textColor="#727272"
+                android:paddingTop="8dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="italic|bold"
+                android:text="Preparacion:"
+                android:textAllCaps="false"
+                android:textColor="#5D4037"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic|bold"
+                android:text="En una cacerola con agua hirviendo colocar todos los ingredientes juntos (menos el orégano), sazonar y dejar cocer durante 20 minutos.
+Unos minutos antes de retirar la cacerola del fuego, bajar el calor a medio, colocar con mucha suavidad los huevos uno por uno y dejar cuajar.
+Retirar del fuego y agregar el orégano desmenuzado, dejar descansar 5 minutos y servir."
+                android:textAllCaps="false"
+                android:textColor="#727272"
+                android:paddingTop="8dp"
+                />
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:padding="1dp"
+                android:src="@drawable/locro"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="Papa en Salsa de Quinua"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 1 kg de papas amarillas \n
+- 1/2 taza de quinua cocida \n
+- 200 grs de queso fresco \n
+- 2 cdas de ají molido \n
+- 1 cubito de caldo de gallina \n
+- 1 cdta de ajos molidos \n
+- 2 cdas de aceite \n
+- Leche evaporada \n
+- Lechuga, huevos duros, aceitunas"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="Cocemos y pelamos las papas. Aparte, freimos la cebolla, ajos, ají y la tableta del caldo. Pasamos este frito a la licuadora. Antes de licuar, le agregamos el queso fresco desmenuzado, la quinua cocida y el aceite. Licuamos vertiendo la leche evaporada necesaria para formar una salsa de mediana consistencia.
+Colocamos las papas sobre lechuga en una fuente, cubrimos con la salsa y adornamos con los huevos duros y aceitunas."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:padding="1dp"
+       android:src="@drawable/entrada5"
+       android:layout_gravity="center"
+       />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

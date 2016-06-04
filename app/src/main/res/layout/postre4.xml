@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="Gelatina de coco (La Paz)"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 3 cocos \n
+- 1 lata de leche condensada \n
+- 1 1/2 taza de leche natural \n
+- 8 hojas de colapez"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="Partir los cocos, reservar su leche y el fruto rallarlo. unir fruto y leche de coco, aumentar agua hasta cubrir el coco rallado, dejar remojar 24 horas, colar el jugo con un lienzo.
+Remojar en agua fria el colapez, escurrrirlo y luego disolverlo en el jugo de coco hirviendo. \n \n
+Cuando la gelatina esté tibia añadir las leches. Dejar cuajar"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="match_parent"
+       android:padding="16dp"
+       android:layout_gravity="center"
+       android:src="@drawable/postre4"
+       />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

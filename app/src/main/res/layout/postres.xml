@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="budin de quinua"
+                android:textStyle="bold|italic"
+                android:textColor="#282323"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/postre1"
+                android:onClick="postre1"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="helado de canela"
+                android:paddingTop="8dp"
+                android:textStyle="bold|italic"
+                android:textColor="#282323"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/postre2"
+                android:layout_gravity="center"
+                android:onClick="postre2"
+                android:scaleType="centerCrop" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="empanadas"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:paddingRight="8dp"
+                android:src="@drawable/empanadas"
+                android:onClick="comida17"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="flan de leche"
+                android:textStyle="bold|italic"
+                android:textColor="#282323"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/postre3"
+                android:layout_gravity="center"
+                android:onClick="postre3"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="gelatina de coco"
+                android:textStyle="bold|italic"
+                android:textColor="#282323"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/postre4"
+                android:onClick="postre4"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="suspiros"
+                android:textStyle="bold|italic"
+                android:textColor="#282323"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:layout_gravity="center"
+                android:src="@drawable/postre5"
+                android:onClick="postre5"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="soltero de queso"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/entrada1"
+                android:onClick="entrada1"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="huevos con espinacas"
+                android:paddingTop="8dp"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/entrada2"
+                android:layout_gravity="center"
+                android:onClick="entrada2"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="palta rellena de verduras"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/entrada3"
+                android:layout_gravity="center"
+                android:onClick="entrada3"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="Verduras al vapor con vermouth"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/entrada4"
+                android:onClick="entrada4"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="papa en salsa de quinua"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:layout_gravity="center"
+                android:src="@drawable/entrada5"
+                android:onClick="entrada5"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

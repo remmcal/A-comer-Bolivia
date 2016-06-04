@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="Verduras al vapor con vermouth"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 1 zanahoria en bastoncitos. \n
+- 100 g de zucchini, calabacin o zapallito italiano en rodajas. \n
+- 1 pimiento rojo en tiras gruesas. \n
+- 4 cebollitas cóctel partidas por la mitad. \n
+- 8 cucharadas de vermut blanco. \n
+- 4 cuchardas de jugo de limón. \n
+- ralladura de 1 limón. \n
+- una pizca de pimentón o páprika. \n
+- 4 ramitas de estragón o perejil. \n
+- Sal y pimienta."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En un tazón grande mezclamos todas las verduras.
+Cortamos 4 cuadrados grandes de papel vegetal o papel encerado y colocamos la cuarta parte de la mezcla de verduras en cada uno. Levantamos los bordes y los torcemos hacia arriba formando un atadito.
+Mezclamos el vermouth con el jugo, la ralladura de limón y el pimentón y vertimos un cuarto de la mezcla dentro de cada atadito. Sazonamos con sal y pimienta y colocamos una ramita de estragón o perejil. Cerramos los ataditos.
+Cocinamos los ataditos en una vaporera por unos 15 a 20 minutos o hasta que las verduras estén suaves. Adornamos con hojitas de estragón o perejil y servimos."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textStyle="italic|bold"
+            android:text="tips:"
+            android:textAllCaps="false"
+            android:textColor="#5D4037"
+            android:paddingTop="8dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="italic|bold"
+            android:text="Si no tienemos una vaporera en casa puedemos colocar un colador sobre el borde de una cacerola con agua hirviendo. Recuerda que la cacerola debe ser lo suficientemente alta para que el agua no llegue a los ataditos y estos puedan cocinarse solo con el vapor.
+Es muy importante que los ataditos se cierren bien para evitar que se abran durante la cocción y el jugo se evapore."
+            android:textAllCaps="false"
+            android:textColor="#727272"
+            android:paddingTop="8dp"
+            />
+
+
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="match_parent"
+       android:padding="16dp"
+       android:layout_gravity="center"
+       android:src="@drawable/entrada4"
+       />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

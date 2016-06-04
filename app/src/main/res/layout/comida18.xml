@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="Picana de Navidad"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes para 4 personas:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 4 Filetes de carne de res \n
+- 8 presas pequeñas de pollo \n
+- 1 Cabeza de cebolla mediana \n
+- 1 Ramita de apio \n
+- 1 ramita de perejil \n
+- 5 Clavos de olor \n
+- 2 Nabos medianos partidos en 4 \n
+- 2 Zanahorias grandes, peladas y partidas en 4 \n
+- 3 Cubos de caldo. \n
+- 1 Cuchara de pimienta dulce en grano \n
+- 1 Vaso de vino o cerveza. \n
+- Aceite lo necesario"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En un poco de aceite muy caliente, freír la carne y el pollo para sellar el sabor, en esta misma grasa sofreír la cebolla entera y el resto de los vegetales.
+En una olla con 6 tazas de agua hirviendo colocar la carne, dejar cocer por 15 minutos y agregar el pollo y las verduras, tomando cuidado de insertar los clavos de olor en la cebolla en distintos lugares de esta, esto ayuda a que no se deshaga en capas y se torne flemosa.
+Sazonar con pimienta dulce en grano sal y pimienta, y dejar hervir hasta que las carnes estén tiernas. \n
+Cuando esto suceda, rectificar la sazón agregándole lo que tu consideres que le hace falta, un `poco de sal, pimienta, etc.
+Echar el vaso de vino o cerveza, dejar hervir unos 5 minutitos y bajar del fuego. \n
+Con una espumadera sacar, la cebolla, el perejil y en el apio y desecharlos
+\n \n
+Nota: Dependiendo de la familia, algunas personas además de pollo y carne, también agregan cerdo y cordero. \n
+Si deseas agregar cordero te recomiendo que lo hagas hervir por separado  en olla de presión noche antes y lo dejes enfriar hasta el día siguiente, así lograras quitarle la mayor grasa posible.
+También si deseas puedes agregarle 1 taza de pasas y 1 taza de almendras y también si deseas puedes agregarle 2 cucharas de ají colorado o arvejas, todo depende de la familia, este plato suele variar de una familia a otra."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes para la guarnición:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 4 Tuntas grandes u 8 pequeñas \n
+- 4 Tajadas delgadas de queso fresco o criollo \n
+- 4 Papas grandes peladas \n
+- 4 Choclos pequeños \n
+- 2 Cucharas de azúcar \n
+- 1 Cucharilla de anís en grano"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion de la guarnicion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="Remojar las tuntas, cortarlas por la mitad colocar una tajada de queso en el medio y hacerlas cocer al vapor, cuando ya listas condimentarlas con sal, dejar un hervor más y reservar.
+Los choclos hacerlos hervir en una olla a presión, con 6 tazas de agua, 2 cucharas de azúcar, 1 cucharilla de anís, por 20 minutos más o menos."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+    <ImageView
+       android:layout_width="350dp"
+       android:layout_height="match_parent"
+       android:padding="8dp"
+       android:layout_gravity="center"
+       android:src="@drawable/picana"
+       />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="Empanadas Tucumanas al puro estilo Boliviano"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes del jigote (relleno)"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 2 cebollas picadas finamente \n
+- Empanadas Tucumanas (Bolivianas) \n
+- 2 cucharadas de ají amarillo molido \n
+- 2 cucharadas de ají colorado molido \n
+- ½ cucharada de pimienta \n
+- ¼ cucharada de comino molido \n
+- ½ cucharada de orégano desmenuzado \n
+- 1 kg de carne picada o molida \n
+- ½ libra de papa semicocida picada en cubitos \n
+- 80 g de azúcar \n
+- Sal a gusto \n
+- 2 huevos duros cortados en rodajas finas \n
+- 2 cucharadas de perejil picado finamente \n
+- Un chorro de aceite vegetal
+"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion del jigote:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="Colocar un chorro de aceite en una sartén a fuego medio, colocar la cebolla y freír hasta que este dorada, agregar la carne, freír un poco hasta que suelte sus jugos y condimentar (ají colorado y amarillo, pimienta, comino, orégano). Adicionar las papas, dejar cocer por 5 minutos más, agregar el azúcar, mezclar y bajar del fuego, reservar. \n
+- Ingredientes para la masa , \n
+- 400 g de harina \n
+- 4 cucharas colmadas de manteca vegetal  (recomendable) \n
+- 2 cucharadas rasas de sal \n
+- 1 cucharada de azúcar \n
+- Agua caliente, lo necesario \n
+- Aceite, cantidad necesaria para freír"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion: "
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text=" Mezclar la harina con la manteca a punto arena, formar una corona sobre la mesada, añadir todos los demás ingredientes, agregar  agua caliente poco a poco y formar una masa blanda y apenas pegajosa, amasar suave, formar bollitos de 25 o 30 g reposar y estirar con el rodillo en forma de ovalo delgado, rellenar con el jigote, sellar muy bien y repulgar. Freír en abundante aceite caliente.
+"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="350dp"
+       android:layout_height="match_parent"
+       android:padding="8dp"
+       android:layout_gravity="center"
+       android:src="@drawable/empanadas"
+       />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

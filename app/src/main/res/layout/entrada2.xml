@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:textStyle="bold|italic"
+                android:text="huevos con espinacas"
+                android:textAllCaps="true"
+                android:textColor="#212121"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="italic|bold"
+                android:text="Ingredientes:"
+                android:textAllCaps="false"
+                android:textColor="#5D4037"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic|bold"
+                android:textAllCaps="false"
+                android:textColor="#727272"
+                android:paddingTop="8dp"
+                android:text="-4 huevos duros. \n
+- 1 atado de espinaca. \n
+- 2 cucharadas de queso crema. \n
+- 1 cucharada de queso rallado. \n
+- Sal. \n
+- Aceite de oliva. \n
+- Zumo de limón."
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="italic|bold"
+                android:text="Preparacion:"
+                android:textAllCaps="false"
+                android:textColor="#5D4037"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic|bold"
+                android:text="Tome la espinaca y deshágase de los tallos y raíces; luego lávela con abundante agua y póngala en una olla con agua hirviendo durante un minuto. Después de lo cual la sumergiremos en un recipiente con agua helada para evitar que se siga cocinando.
+Los huevos duros serán cortados por la mitad, para luego retirar la yema y mezclarla con la espinaca escurrida que ha sido antes picada muy finamente.
+A esta mezcla se le agregará el queso rallado y la sal, para luego verter sobre ella algo de aceite de oliva y unas gotas de limón. Incorpore también el queso crema junto a los ingredientes y remuévalos muy bien.
+Coja la mezcla y rellene las claras de los huevos, y, si desea, puede agregar sobre la preparación unas ramitas de olivo así como lechugas para la base de su presentación."
+                android:textAllCaps="false"
+                android:textColor="#727272"
+                android:paddingTop="8dp"
+                />
+
+            <ImageView
+                android:layout_width="393dp"
+                android:layout_height="match_parent"
+                android:padding="1dp"
+                android:layout_gravity="center"
+                android:src="@drawable/entrada2"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

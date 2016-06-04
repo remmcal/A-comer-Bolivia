@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#abcdef">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="16dp"
+             android:textStyle="italic|bold"
+             android:text="Después de cortar algunas frutas (como la manzana y la pera) éstas comienzan a oscurecerse, para que evitarlo, después de pelarlas colócalas en agua fría con el jugo de un limón por al menos 20 minutos y eso es todo, conservarán su color natural y a la hora de hacer una ensalada de frutas se verá más mucho mejor. \n
+\n Un limón ya muy seco puede volverse rico y jugoso si lo sumerges en una taza de agua hirviendo durante unos minutos, esto lo dejará en perfectas condiciones.  \n
+\n Cuando peles plátanos, hazle un corte a la cáscara y déjalos en agua con sal durante un rato. Así evitarás mancharte mientras las cortas.  \n
+\n El truco para pelar bien las uvas está en colocar el racimo en agua hirviendo durante medio minuto. \n
+\n Limón en gotas Si sólo necesitas un par de gotas de limón, introduce una aguja fina por uno de sus extremos y exprime a través del agujero las gotas necesarias. Es un truco estupendo y te servirá para varias veces.\n
+\n Las verduras no perderán su color si al cocinarlas las hierves en poca agua y las tapas, agregándoles la sal hasta que estén completamente cocinadas. \n
+\n Cuando peles plátanos, hazle un corte a la cáscara y déjalos en agua con sal durante un rato. Así evitarás mancharte mientras las cortas. \n
+\n Para evitar el mal olor que se desprende de la coliflor cuando se cocina, colocar un pedazo de pan de trigo en el fondo de la olla, antes de ponerla a cocinar. \n
+\n Para no llorar cuando picamos cebolla debemos meterla un par de minutos al congelador. \n
+\n Para saber si el aceite está suficientemente caliente para empezar a freír, basta con colocar un diente de ajo; si se dora es que ya está listo. También podemos probar colocando una cuchara de palo, si se hacen burbujitas en su entorno entonces ya está. \n
+\n La cebolla naturalmente es de un sabor y olor fuertes, para disminuir esto lo mejor es desflemar la cebolla antes de preparar la receta deseada. Coloca la cebolla en un recipiente, cúbrela con agua y agrega una pizca de sal, déjala desflemar durante cinco minutos, luego quita el agua y enjuaga. \n
+\n Al momento de picar hierbas, esparce un poco de sal en la tabla de picar. Eso evitará que salten. \n
+\n Picaste Ajos? Antes de lavarte las manos, frótalas vigorosamente en un lavaplatos de acero inoxidable durante 30 segundos. Así se eliminará el olor. \n
+\n Si necesitas agregar más aceite cuando estés salteando, ponlo en el borde de la sartén para que cuando llegue a los ingredientes que estás cocinando ya esté caliente. \n
+\n Para lograr que las verduras mantengan un color brillante y natural, inmediatamente después de cocerlas hay que sumergirlas en agua helada. \n
+\n Para sacarle todo el jugo que se pueda a los limones, hazlos rodar con tu mano con fuerza sobre una superficie dura durante aproximadamente un minuto o métalos al microondas por 10 ó 15 segundos. \n
+\n Para evitar que la coliflor tenga un color beige claro al cocinarlo, añade un poquito de leche al agua con sal en la que vas a hervirlos. Después produce un choque con agua fría para detener el proceso de cocción y sírvelos \n
+\n Si desea añadir limón o vinagre a ensaladas con verduras frescas, colóquelo justo antes de servirlas para evitar que estas se marchiten. \n
+\n Para que una lechuga se vea crujiente y fresca se debe conservar en un recipiente con agua y jugo de limón inmediatamente antes de utilizarla. \n
+\n Cuando se cocina en una cazuela de barro, la temperatura debe ser un poco más alta que cuando se cocina en recipientes de otro material. Si se conserva la misma temperatura, el tiempo de cocción debe ser un poco mayor. \n
+\n Para evitar olores, mi recomendación es colocar en una olla pequeña agua, canela, cáscara de naranja y un poco de vainilla. Deja hervir la preparación a fuego suave mientras estás cocinando. Verás cómo el ambiente cambia. \n
+\n Deja las papas crudas en agua fría durante al menos media hora antes de freír para mejorar la nitidez de las papas fritas. \n
+\n La lechuga se mantiene mejor si se almacena en el refrigerador sin lavar. Lava el día en que se va a utilizar. \n
+\n No uses recipientes de metal para mezclar ensaladas. Usa de cristal, vidrio, madera, plástico o porcelana. Esto evitara que las legumbres o verduras se oxiden. \n
+\n Coloca dientes de ajo en el microondas durante 15 segundos y la piel se caerá de inmediato. \n
+\n La mejor manera de almacenar el apio fresco es envolverlo en papel de aluminio y ponerlo en el refrigerador. Así se mantendrá durante semanas. \n
+\n Pasar una toalla de papel o de tela húmeda sobre una mazorca de maíz quitará cada hebra o pelo que haya. \n
+\n Para que las alcachofas no pierdan su color verde, al cocerlas se debe añadir al agua jugo de limón. \n
+\n Si tiene fruta que no está aún madura, nunca la refrigere, pues el frío evita que las frutas maduren adecuadamente. \n
+\n Para evitar que la cáscara de las papas se rompa al hervirla échele 1/4 de taza de vinagre al agua done va a cocer. \n
+\n Si quiere que las papas fritas le queden con un sabor diferente, agregue un diente de ajo con cáscara al aceite, al freírla. \n
+\n Las papas se deben guardar en un lugar oscuro, fresco con buena ventilación y seco. Nunca se deben conservar en bolsas plásticas. \n
+\n ¿Se le quemó el arroz? Introduzca un pedazo de pan en el medio. Tape la olla por cinco minutos y el pan absorberá el sabor a quemado. Esto mismo se hace cuando se pasó de sal. \n
+\n La harina se debe almacenar en un lugar fresco e idealmente no debe ser conservada por mucho tiempo porque pierde sus características, verifique siempre la vida útil. \n
+\n Un buen hábito es revisar con varios días de anticipación la receta que deseamos elaborar de esta manera nos aseguramos que contamos con todos los ingredientes. \n
+\n Si quieres un arroz blanco sueltico, agrega unas gotas de zumo limón a la cocción mientras se cocina, no es conveniente removerla pues eso ocasionará que se pegue. \n
+\n Para que los omelets o tortillas queden esponjosas basta con batir los huevos echándoles un poquito de leche y agua. \n
+\n Para saber si el aceite está suficientemente caliente para empezar a freír, basta con colocar un diente de ajo; si se dora es que ya está listo. También podemos probar colocando una cuchara de palo, si se hacen burbujitas en su entorno entonces ya está. \n
+\n Al pasar el tiempo el arroz o los garbanzos se pueden llenar de animalitos, para que no ocurra esto guardarlos en un envase hermético junto a un diente de ajo. \n
+\n Apagaste el fuego y te diste cuenta que el arroz quedó crudo? Cúbrelo con un paño húmedo y tápalo, déjalo reposar durante algunos minutos, con esto tu arroz estará bien cocido. \n
+\n Para que el arroz no se pegue a la olla, simplemente agregar una cucharada de jugo de limón al agua donde se hervirá. \n
+\n Si necesitas agregar más aceite cuando estés salteando, ponlo en el borde de la sartén para que cuando llegue a los ingredientes que estás cocinando ya esté caliente. \n
+\n Al hervir el agua para pasta, no utilices aceite: este hará que la salsa no se pueda adherir a la pasta. \n
+\n Cada vez que cocines pasta, retira un poco del agua en el que la herviste antes de colarla. Cuando agregues la salsa que escogiste a los fideos, añade un poco de este líquido. Esto ayuda a que la salsa de amalgame; el almidón en el agua le aporta cuerpo y cremosidad. \n
+\n Si al agregar una cucharadita de polvo de hornear en un recipiente con agua caliente este no hace reacción entonces se debe desechar porque está dañado. \n
+\n Cuando se cocina en una cazuela de barro, la temperatura debe ser un poco más alta que cuando se cocina en recipientes de otro material. Si se conserva la misma temperatura, el tiempo de cocción debe ser un poco mayor. \n
+\n Para evitar olores, mi recomendación es colocar en una olla pequeña agua, canela, cáscara de naranja y un poco de vainilla. Deja hervir la preparación a fuego suave mientras estás cocinando. Verás cómo el ambiente cambia. \n
+\n Cuando se trabaja con masa, cubre tus manos con aceite de oliva para evitar que se pegue. \n
+\n Para devolver al pan de sal la frescura que tienen cuando están recién comprados, envuélvalos en una toalla de tela ligeramente mojada y métalos unos segundos en el horno a baja temperatura. Cuando los saque habrán recuperado su frescura y estarán crujientes y calientes. \n
+\n Para aumentar el merengue, agregar una cucharadita de agua por cada clara de huevo, te sorprenderás! \n
+\n Si utilizaste la clara de los huevos pero no deseas perder la yema, solo debes guardarlos en un recipiente, luego cubrir con agua y guardar en la nevera o refrigerador. \n
+\n Para cortar los huevos duros en tiras finas utilizar un cuchillo mojado con agua bien fría. Si eso no funciona, aplica un poco de aceite en el borde de cuchillo. \n
+\n Los huevos frescos son ásperos, los huevos viejos son lisos y brillantes. \n
+\n Los huevos blancos y marrones no tienen diferencia en la calidad. Se conservan mejor si se coloca la punta más fina hacia abajo. Sin deben batirse, guárdelos a temperatura ambiente. Para probar si un huevo es fresco, colóquelo en una taza fría, si el huevo flota no es fresco. \n
+\n Cuando cocine con crema, cuide que no hierva, ya que se puede cuajar. \n
+\n Engrase el borde de una porción de queso para evitar que se seque. Envuélvalo en una toalla de papel mojada, luego con papel transparente y guarde en la nevera. \n
+\n Como azar un pedazo de carne. para lograr una porción jugosa, la mejor recomendación es cortar la carne en pedazos gruesos. Luego, cocínalos en una  sartén o parrilla muy caliente, de esta manera se sellan los jugos y se concentran adentro, haciendo que la carne este muy jugosa y suave. No puyar la carne nunca, pues se pondrá seca. \n
+\n Para evitar olores, mi recomendación es colocar en una olla pequeña agua, canela, cáscara de naranja y un poco de vainilla. Deja hervir la preparación a fuego suave mientras estás cocinando. Verás cómo el ambiente cambia. \n
+\n Las carnes ahumadas, en contacto con el aire, se desaromatizan con mucha rapidez. No corte las piezas grandes hasta el momento de servirlas. Si las sirve en rodajas, póngales por encima una capa fina de aceite de oliva. \n
+\n Cuando se cocina en una cazuela de barro, la temperatura debe ser un poco más alta que cuando se cocina en recipientes de otro material. Si se conserva la misma temperatura, el tiempo de cocción debe ser un poco mayor. \n
+\n Si está preparando un plato salado que lleva un poco de azúcar, pero se le ha ido la mano al echarla, agréguele una poquito de vinagre para contrarrestar el sabor excesivamente dulce. \n
+\n Para asegurarse que el pescado es fresco observar lo siguiente: la piel debe ser rígida y sin heridas, ojos vivos y transparentes y bronquios húmedos y cerrados. \n
+\n Lávese las manos con limón ácido para eliminar el olor a pescado. \n
+\n Para obtener albóndigas bien esponjosas, agregar a la carne, migas de pan mojadas en leche, de este modo, quedarán unas albóndigas suaves y tiernas. \n
+\n Para cortar tocineta, tocino, en pequeñas tiras, primero colócalo en el congelador durante unos 15 minutos. Esto hará que la carne esté más firme, de manera que cortarla sea más fácil. \n
+\n Si necesitas agregar más aceite cuando estés salteando, ponlo en el borde de la sartén para que cuando llegue a los ingredientes que estás cocinando ya esté caliente. Al moldear la carne de las hamburguesas, es recomendable hacer un agujero con la yema del dedo en el centro; así al cocinarse la carne terminará uniéndose y se hacen en mucho menos tiempo.\n
+\n Al moldear la carne de las hamburguesas, es recomendable hacer un agujero con la yema del dedo en el centro; así al cocinarse la carne terminará uniéndose y se hacen en mucho menos tiempo.\n
+\n Para saber si el aceite está suficientemente caliente para empezar a freír, basta con colocar un diente de ajo; si se dora es que ya está listo. También podemos probar colocando una cuchara de palo, si se hacen burbujitas en su entorno entonces ya está. \n
+\n Nunca lavaremos la carne con agua, si es necesario limpiarla lo haremos con un trapo. Mojar la carne hace que esta pierda sangre por lo que quedará más seca. \n
+\n El pescado se conserva mucho mejor en el refrigerador o nevera si lo envolvemos en un trapo húmedo. \n
+\n Después de freír pescado para que no quede el olor en la cocina, se quema una hoja de laurel. \n
+\n Las carnes quedarán más sabrosas y blandas si antes de adobarlas o guisarlas las frotamos con limón. \n
+\n Para rebanar la carne en tiras delgadas: congela parcialmente y se cortará fácilmente. \n
+\n Un asado con hueso se cocinará más rápido que un asado sin hueso ya que el hueso lleva el calor al interior del asado más rápido. Eso sí, se debe cocinar mucho más tiempo por el lado del hueso. \n
+\n Es importante dejar reposar un asado de carne vacuna, cordero, cerdo o aves de corral – un rato antes de cortarlo; eso permite que los jugos regresen a la carne. \n
+\n Cuando esté asando carne a la parrilla, la carne obtendrá un mejor sabor echando al fuego una ramita de romero o tomillo. \n
+\n Para marinar carne dura, use vinagre para ablandar la carne. Mezcle vinagre en partes iguales con caldo tibio o aceite de cocina. Marine la carne por una hora antes de cocinarla. \n
+\n Quiere que su carne dure más en la nevera? y no adquiera mal olor, pues antes de llevar a la nevera o refrigerador úntela con aceite vegetal y notará sus efectos. \n
+\n Las carnes, una vez extraído su jugo y sus sustancias, dejan de tener valor nutritivo. No son convenientes, pues, las cocciones prolongadas. \n
+\n Para que las albóndigas le salgan todas del mismo tamaño, solo tiene que usar la cuchara para hacer bolas de helado. \n"
+             android:textColor="#5D4037"
+             android:padding="16dp"
+             />
+
+
+     </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

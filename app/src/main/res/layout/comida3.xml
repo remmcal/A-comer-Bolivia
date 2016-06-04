@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="Sajta de pollo"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes para 6 personas:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 1 Pollo mediano \n
+- 5 Cucharadas de ají amarillo molido \n
+- 1 Taza de caldo \n
+- ¾ De taza de arvejas previamente cocidas \n
+- 1 Cabeza de cebolla finamente picada \n
+- Sal y pimienta al gusto "
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Para acompañar: "
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="Servir acompañado de chuño o tunta,  rebosado con maní, papas blancas, sarsa y un poco de perejil picado por encima."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="Limpiar y lavar el pollo, cortarlo en presas y poner a cocer en agua caliente con sal, cuando esté cocido colocar en una cacerola y reservar.
+Freír la cebolla, cuando este doradita agregar el ají y las 2 tazas de caldo, dejar dar un hervor y agregar a esta preparación, las presas de pollo, las arvejas, sazonar a gusto y dejar hervir a fuego lento,  si deseas que el jugo te quede más espeso, puedes agregar 3 cucharas de pan rallado, dejar hervir hasta que espese y bajar del fuego."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="match_parent"
+       android:padding="8dp"
+       android:layout_gravity="center"
+       android:src="@drawable/picantepreparecion"
+       />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:src="@drawable/sajta"
+        android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

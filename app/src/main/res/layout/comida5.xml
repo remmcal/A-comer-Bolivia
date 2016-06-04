@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="Pollo spiedo"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- Un pollo de 2 kg más o menos (sin despresar) \n
+- Pollo spiedo o espiedo \n
+- 4 cucharadas de mostaza \n
+- 2 cucharadas de orégano desmenuzado \n
+- 1 cucharada de pimienta \n
+- 2 dientes de ajo, molidos \n
+- 250 ml de cerveza \n
+- 5 cucharadas de sal \n
+- 1 vaso de jugo de limón \n
+- Un chorro de vinagre de manzana"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En un bol mezclar el ajo, orégano, sal, pimienta cerveza, limón y vinagre. Vaciar la mezcla en una olla grande, encima colocar el pollo y verter abundante agua fría hasta cubrir el pollo. Con ayuda de una cuchara de madera revolver todo. Dejar reposar por 24 horas.
+Si hace mucho calor es recomendable hacer reposar dentro del refrigerador. \n
+Al día siguiente escurrir el pollo y colocarlo en la varilla de la rostizadora. Rectificar sazón y llevar a cocer por más o menos 2 horas. Para ver si ya está cocido te recomiendo que hagas un pequeño corte en la parte de la pechuga, si esta aun de color rosado, deja cocer por unos minutos más. Si ves que esta blanco, llego la hora de retirarlo del fuego.
+"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="¿Cómo hago pollo spiedo en mi horno?"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16dp"
+    android:textStyle="italic|bold"
+    android:text="Pues i no tienes la maquina o los implementos necesarios, puedes hacerlo en un horno común y corriente. De la siguiente forma:
+Luego de escurrir el pollo, condimenta con sal, pimienta, mostaza y un poco de ajo en polvo (nuevamente). Corta el pollo por la parte de la espalda y abre a manera de libro. Coloca en una fuente. Llevar a horno pre calentado a 200 °C por más o menos 2 horas. Cada 20 minutos, debes recoger el jugo del cocimiento y verter sobre el pollo nuevamente. Cuando veas que ya está cocido. Con ayuda de un pincel, pasa con un poco de aceite de oliva. Deja q cueza un poco más hasta que se ponga crocante. Sirve con arroz graneado o fideo y escabeche."
+    android:textAllCaps="false"
+    android:textColor="#727272"
+    android:paddingTop="8dp"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="Nota: cuando el pollo este a medio cocer, pincha con un trinche (especie de tenedor) por toda la superficie. Así conseguirás que los jugos salgan a la superficie."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="393dp"
+       android:layout_height="match_parent"
+       android:padding="8dp"
+       android:src="@drawable/pollospiedo"
+       android:layout_gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

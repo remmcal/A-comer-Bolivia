@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="35dp"
+                android:textStyle="bold|italic"
+                android:text="CHAQUE DE TRIGO (SOPA)"
+                android:textAllCaps="true"
+                android:textColor="#212121"
+                android:textAlignment="center"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="italic|bold"
+                android:text="Ingredientes:"
+                android:textAllCaps="false"
+                android:textColor="#5D4037"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic|bold"
+                android:text="- ½ Kilo de carne de res \n
+- 1 Platillo de habas y arvejas \n
+- 2 zanahorias \n
+- 1 Cebolla \n
+- 1 Taza de trigo molido \n
+- 1 Nabo \n
+- 8 Papas \n
+- 2 Cucharadas de ají colorado \n
+- Sal y pimienta al gusto"
+                android:textAllCaps="false"
+                android:textColor="#727272"
+                android:paddingTop="8dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textStyle="italic|bold"
+                android:text="Preparacion:"
+                android:textAllCaps="false"
+                android:textColor="#5D4037"
+                android:paddingTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textStyle="italic|bold"
+                android:text="Hacer cocer la carne con la cebolla y el nabo, sazonar y prepara un caldo. Colar y agregar las arvejas, habas, zanahorias cortadas al hilo, el trigo molido y lavado más las papas cortadas en cuatro. Cuando todo esté cocido agregar el ají y servir."
+                android:textAllCaps="false"
+                android:textColor="#727272"
+                android:paddingTop="8dp"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="1dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sopa6"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

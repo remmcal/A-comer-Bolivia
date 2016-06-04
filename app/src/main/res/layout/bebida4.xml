@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="mocochinchi"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 1 kilo de mocochinchi  de muy buena calidad (durazno disecado) \n
+- 3 tazas de azúcar \n
+- 3 litros de agua. \n
+- 1 palito de canela (opcional)"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text=" Poner a remojar el mocochinchi una noche antes que el agua cubra bien los duraznos. Al momento de preparar, hervirlos con agua (si desea agregue un palito de canela), durante 2 horas, hasta que se ablanden. Mientras, preparar un almíbar con el azúcar hasta el punto caramelo semioscuro.
+Al finalizar la cocción de los duraznos, se echa el caramelo y se bate hasta disolver totalmente. Retirar del fuego y dejar enfriar. Servir bien frío, si quiere con hielo. Para días calurosos una delicia \n
+La temporada de calor ya se vive y  nada mejor que hacerle frente con un buen mocochinchi frío que ayude a calmar la sed provocada por las altas temperaturas."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="match_parent"
+       android:padding="16dp"
+       android:layout_gravity="center"
+       android:src="@drawable/bebidas"
+       />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

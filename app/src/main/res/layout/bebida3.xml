@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="CHICHA MORADA (Bolivia)"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 6 Mazorcas de maíz (choclo) morado \n
+- 4 Litros de agua \n
+- 2 ramitos de canela \n
+- 8 Clavos de olor \n
+- 4 tajas de piña con cascara y todo"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En una olla colocar el agua, los choclos, la canela y el clavo de olor, dejar hervir hasta que los granos de maíz revienten, cuando esto suceda, bajar del fuego y dejar enfriar, colar la preparación y llevar a un recipiente preferentemente de arcilla, agregar las piñas y dejar macerar por lo menos 5 días, después de una semana retirar la piña, para evitar que fermente demasiado.
+Colar nuevamente colocar en un recipiente y reservar en el refrigerador. \n \n
+Nota: Para consumirla, deberás colar de nuevo y recién agregar el azúcar ya que si lo haces antes, la chicha fermentara demasiado pronto"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="match_parent"
+       android:padding="16dp"
+       android:layout_gravity="center"
+       android:src="@drawable/bebida3"
+       />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

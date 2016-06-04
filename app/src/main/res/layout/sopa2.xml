@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="TEKO O TEQO (Sopa)"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- ½ Kg de hueso blanco \n
+- 1 Cabeza de cebolla grande \n
+- 4 Zanahorias medianas picadas a lo largo en 6 partes \n
+- 1 ramita de perejil \n
+- 1 tallo de apio \n
+- 1 Nabo pequeño \n
+- 2 choclos cortados en rodajas finas \n
+- 1 papa mediana por persona \n
+- ½ Taza de arvejas peladas \n
+- ¾ Taza de arroz \n
+- 3 Achojchas (caigua, caihua) picadas en tiritas finas \n
+- 2 Cucharillas de orégano desmenuzado o más dependiendo de tu gusto \n
+- 1 huevo por persona \n
+- Sal y pimienta al gusto"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En una olla agregar 2 litros de agua, poner a fuego medio,  cuando comience a hervir, colocar el hueso blanco, dejar cocer por media hora, seguidamente incorporar,  la cebolla entera, apio, perejil, nabo, las tajadas de choclo y dejar cocer hasta que el choclo este “casi” cocido.
+Agregar la zanahoria, achojchas  y las arvejas, cuando las verduras estén casi listas, agregar las papas picadas en cubitos, después de 7 minutos agregar el arroz, cuando el arroz esté listo, apagar el fuego (no retirar la olla de la lumbre), esparcir el orégano por encima y colocar muy suavemente los huevos en lugares diferentes y distantes, tapar la olla y dejar que los huevos se cuezan, cuando ya estén listos, llego la hora de servir.
+"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="250dp"
+       android:padding="1dp"
+       android:layout_gravity="center"
+       android:src="@drawable/sopa2"
+       />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

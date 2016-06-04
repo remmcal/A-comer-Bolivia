@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="PAPAS A LA HUANCAINA"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 5 Papas grandes peladas y cocidas \n
+- ½ Taza de ají amarillo molido \n
+- 1 Libra de maní  tostado y licuado en un poco de agua o caldo \n
+- 1 Queso criollo fresco \n
+- 5 Huevos duros \n
+- 1 Puñado de aceitunas \n
+- 10 Hojas de lechuga fresca \n
+- 4 Tomates medianos"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En un poco de aceite caliente, freír nuevamente el ají, agregar el maní licuado, aumentar de apoco chorritos de agua hasta que la salsa espese, condimentar con sal al gusto.
+En un plato colocar 2 hojas de lechuga, sobre estas deberán ir las papas cubiertas con la salsa de maní, adornar con los huevos duros partidos en 4, una o dos tajadas de queso, los tomates partidos en 4 y las aceitunas."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="350dp"
+       android:layout_height="wrap_content"
+       android:padding="8dp"
+       android:layout_gravity="center"
+       android:src="@drawable/papasalahuancaina"
+       />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="AJI DE ARROZ"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 1 Taza de arroz, previamente lavado \n
+- 1 Cebolla finamente picada \n
+- 3 Cucharas de ají colorado molido \n
+- 1 Tomate grande picado finamente´ \n
+- 1 Cuchara de perejil picado finamente \n
+- 1 Platillo pequeño de arvejas previamente cocidas \n
+- ¼ De kilogramo de carne picada \n
+- 6 Papas medianas \n
+- Sal y pimienta al gusto"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En una olla con agua y sal, poner a cocer el arroz, cuando esté cocido agregar las papas, peladas y partidas en cuatro, las arvejas, la carne frita y condimentada.
+Preparar un ahogado friendo la cebolla con el tomate cuando estén doraditos, agregar el ají y un poco de agua, dejar hervir por unos minutos y cuando comience a espesar, bajar del fuego, agregar esta preparación al arroz.
+Agregar un poco de caldo al arroz, mezclar muy bien, dejar dar un hervor. \n \n
+Servir con perejil picado por encima y acompañado de llajua."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="350dp"
+       android:layout_height="wrap_content"
+       android:padding="8dp"
+       android:layout_gravity="center"
+       android:src="@drawable/ajidearroz"
+       />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87e97e">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textSize="16dp"
+             android:textStyle="italic|bold"
+             android:text="A comer Bolivia es una aplicacion de comida Boliviana, surgio al no tener siempre un recetario en mano. ahora puedes descargarlo desde la Play Store"
+             android:textColor="#5D4037"
+             android:padding="25dp"
+             />
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:paddingTop="16dp"
+             android:textSize="12dp"
+             android:textStyle="italic|bold"
+             android:text=" puede enviar sus sugerencias, comentarios de algunos platos al: \n \n Email: remmcal@gmail.com"
+             android:textColor="#5d4037"
+             android:padding="25dp"/>
+
+
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:paddingTop="16dp"
+             android:textSize="12dp"
+             android:textStyle="italic|bold"
+             android:text="Bibliografia: http://recetasbolivianas.blogspot.com"
+             android:textColor="#5d4037"
+             android:padding="25dp"/>
+
+         <ImageView
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             android:src="@drawable/andro"
+             android:layout_gravity="center"/>
+
+     </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

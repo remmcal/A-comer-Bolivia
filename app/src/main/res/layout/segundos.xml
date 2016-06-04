@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thimpu"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/thimpu"
+                android:onClick="comida1"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="picante de pollo"
+                android:paddingTop="8dp"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/picante"
+                android:layout_gravity="center"
+                android:onClick="comida2"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sajta de pollo"
+                android:paddingTop="8dp"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sajta"
+                android:layout_gravity="center"
+                android:onClick="comida3"
+                android:scaleType="centerCrop" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="chicharron de pollo"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/chicharrondepollo"
+                android:onClick="comida4"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="pollo spiedo"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:layout_gravity="center"
+                android:src="@drawable/pollospiedo"
+                android:onClick="comida5"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="saice"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/saice"
+                android:onClick="comida6"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="masaco"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:paddingRight="8dp"
+                android:src="@drawable/masaco"
+                android:onClick="comida8"
+                android:scaleType="centerCrop" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="jakonta"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/jakonta"
+                android:layout_gravity="center"
+                android:onClick="comida13"
+                android:scaleType="centerCrop" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="pesque"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:paddingRight="8dp"
+                android:src="@drawable/pesque"
+                android:onClick="comida16"
+                android:scaleType="centerCrop" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="picana"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/picana"
+                android:onClick="comida18"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="aji de fideo"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/ajidefideo"
+                android:layout_gravity="center"
+                android:onClick="comida19"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="aji de arroz"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/ajidearroz"
+                android:onClick="comida20"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="papas a la huancaina"
+                android:textStyle="bold|italic"
+                android:textColor="#030303"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/papasalahuancaina"
+                android:onClick="comida21"
+                android:scaleType="centerCrop" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

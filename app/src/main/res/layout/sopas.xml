@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="soltero"
+                android:textStyle="bold|italic"
+                android:textColor="#060606"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sopa1"
+                android:onClick="sopa1"
+                android:layout_gravity="center"
+                android:scaleType="centerCrop" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="teko"
+                android:paddingTop="8dp"
+                android:textStyle="bold|italic"
+                android:textColor="#060606"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sopa2"
+                android:layout_gravity="center"
+                android:onClick="sopa2"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="sopa de mani"
+                android:textStyle="bold|italic"
+                android:textColor="#060606"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/sopa3"
+                android:layout_gravity="center"
+                android:onClick="sopa3"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="locro carretero"
+                android:textStyle="bold|italic"
+                android:textColor="#060606"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:src="@drawable/locro"
+                android:onClick="sopa4"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="chairo"
+                android:textStyle="bold|italic"
+                android:textColor="#060606"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sopa5"
+                android:onClick="sopa5"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="chaque de trigo"
+                android:textStyle="bold|italic"
+                android:textColor="#060606"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/sopa6"
+                android:onClick="sopa6"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="8dp"
+                android:text="picana navideña"
+                android:textStyle="bold|italic"
+                android:textColor="#060606"
+                android:textSize="15dp"
+                android:textAllCaps="true"
+                android:paddingLeft="16dp" />
+            <ImageButton
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:paddingRight="8dp"
+                android:src="@drawable/picana"
+                android:layout_gravity="center"
+                android:onClick="sopa7"
+                android:scaleType="centerCrop" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

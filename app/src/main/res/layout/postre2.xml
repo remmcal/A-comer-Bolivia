@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="Helado de Canela (La Paz)"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- Para 8 personas \n
+- 5 tazas de agua \n
+- 1 1/4 tazas de azúcar granulada \n
+- 1 palito de canela \n
+- 2 cucharadas de agua fria \n
+- 1 cucharada de maizena \n
+- 1 cucharada de jugo de limón"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="Hervir las cinco tazas de agua con la canela hasta que tenga color, sabor y disminuya a cuatro tazas. Agregar el azúcar y dejar hervir cinco minutos.
+Disolver en las dos cucharadas de agua fría la cucharada de maizena y anadir a la anterior preparación. Dejar cocer unos cinco minutos.
+Sacar del fuego, dejar enfriar un poco, poner la cucharada de jugo de limón y colar. \n \n
+Estando ya fría la preparación, poner a congelar al refrigerador; a medio cuajar, batir para que no quede muy duro el helado, esto por dos o tres veces, hasta que esté listo."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="300dp"
+       android:layout_height="match_parent"
+       android:padding="16dp"
+       android:layout_gravity="center"
+       android:src="@drawable/postre2"
+       />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="picante de gallina chuquisaqueño"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes para 6 personas:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text=" - 1 pollo o gallina grande \n
+- 1 ramita de apio \n
+- 1 cebolla pequeña entera \n
+- Sal a gusto \n
+- 1 taza de ají colorado molido \n
+- ¼ taza de aceite \n
+- 4 tazas de agua fría \n
+- 1 cubo de caldo de pollo (opcional)"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Para acompañar: "
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 2 papas blancas por persona \n
+- 1 paquete de tallarines hervidos"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Para la zarza: "
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- 2 cebollas grande picada en juliana (largos)\n
+- 4 tomates picados en cubos finos \n
+- 1 cucharada de perejil picado fino \n
+- Un poco de aceite y vinagre"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En una cacerola a fuego medio colocar a hervir abundante agua. Cuando rompa el hervor agregar el pollo trozado, el apio, la cebolla y sal a gusto dejar hervir hasta que el pollo esté tierno, reservar y mantener caliente.
+
+En una sartén a fuego medio poner el aceite, cuando esté caliente, agregar el ají y sofreír ligeramente, no más de 1 minuto. Incorporar el agua fría y desleír el ají completamente. Adicionar el cubo de pollo si se desea y dejar hervir hasta que la mezcla espese y se note que una fina capa de aceite salió a la superficie.
+
+Colar totalmente el pollo y desechar las verduras, reservar un poco del caldo. Verter el ají sobre las presas, agregar caldo de pollo hasta que “casi” cubra todo. Rectificar la sazón y dejar dar un hervor hasta que se impregne todo el sabor.
+
+Servir acompañado de espaguetis o tallarines, papa blanca y decorar con la zarza."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion de la zarza: "
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En un recipiente mezclar, la cebolla, tomate y perejil, sazonar con aceite vinagre y sal."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp">
+    </TextView>
+
+   <ImageView
+       android:layout_width="250dp"
+       android:layout_height="match_parent"
+       android:padding="1dp"
+       android:layout_gravity="center"
+       android:src="@drawable/picantepreparecion"
+       />
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:layout_gravity="center"
+        android:src="@drawable/picante"
+        />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
