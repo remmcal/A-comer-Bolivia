@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:padding="16dp"
+    android:isScrollContainer="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold|italic"
+        android:text="AJI DE FIDEO"
+        android:textAllCaps="true"
+        android:textColor="#212121"
+        android:textAlignment="center"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Ingredientes:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="- ¼ Kg. de carne molida \n
+- 3 Tazas de la pasta o fideos de tu preferencia (tamaño pequeño o mediano) \n
+- 2 Cabezas de cebolla medianas picadas finamente \n
+- 2 Cucharas de ají amarillo molido \n
+- 1 diente de ajo machacado \n
+- 4 papas medianas y picadas en cuadrados pequeños \n
+- ½ Taza de arvejas cocidas previamente \n
+- 1 Cubo de caldo \n
+- Sal y pimienta al gusto"
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="italic|bold"
+        android:text="Preparacion:"
+        android:textAllCaps="false"
+        android:textColor="#5D4037"
+        android:paddingTop="8dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textStyle="italic|bold"
+        android:text="En aceite caliente a temperatura media, retostar los fideos hasta que esté doraditos, en una olla hacer hervir 1 litro de agua, con sal y un chorrito de aceite,  agregar los fideos y dejarlos cocer hasta que estén suaves.
+En una sartén con 3 cucharas de aceite freír la cebolla y el ajo, cuando estén doraditos  añadir 2 tazas de agua, el cubo de caldo y el ají, dejar dar un hervor hasta que salga aceite a la superficie.
+Escurrir  los fideos y agregar a estos las arvejas, la carne previamente frita, las papas, el ahogado que hicimos anteriormente (sofrito de cebolla) mezclar bien, llevar a fuego medio y dejar que de un hervor.
+Servir en plato hondo decorado con perejil picado. \n \n
+Nota: A este plato le puedes agregar los ingredientes que quieras, por ejemplo, chuño picadito y cocido, granos de choclo, habas, etc."
+        android:textAllCaps="false"
+        android:textColor="#727272"
+        android:paddingTop="8dp"
+        />
+
+   <ImageView
+       android:layout_width="350dp"
+       android:layout_height="wrap_content"
+       android:padding="8dp"
+       android:layout_gravity="center"
+       android:src="@drawable/ajidefideo"
+       />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -17,193 +17,193 @@
             </intent-filter>
 
         </activity>
-        <activity android:name="comida1"
+        <activity android:name=".Comida1Activity"
             android:label="plato extra"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida2"
+        <activity android:name=".Comida2Activity"
             android:label="plato extra"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida3"
+        <activity android:name=".Comida3Activity"
             android:label="Segundo"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida4"
+        <activity android:name=".Comida4Activity"
             android:label="Segundo"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida5"
+        <activity android:name=".Comida5Activity"
             android:label="Segundo"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida6"
+        <activity android:name=".Comida6Activity"
             android:label="Segundo"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida8"
+        <activity android:name=".Comida8Activity"
             android:label="Segundo"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida13"
+        <activity android:name=".Comida13Activity"
             android:label="Sopa"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida16"
+        <activity android:name=".Comida16Activity"
             android:label="Segundo"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida17"
+        <activity android:name=".Comida17Activity"
             android:label="Extra"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida18"
+        <activity android:name=".Comida18Activity"
             android:label="Plato Navideño"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida19"
+        <activity android:name=".Comida19Activity"
             android:label="Segundo"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida20"
+        <activity android:name=".Comida20Activity"
             android:label="Segundo"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="comida21"
+        <activity android:name=".Comida21Activity"
             android:label="Plato Extra"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="entradas"
+        <activity android:name=".EntradasActivity"
             android:label="Entradas"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="sopas"
+        <activity android:name=".SopasActivity"
             android:label="Sopas"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="segundos"
+        <activity android:name=".SegundosActivity"
             android:label="Segundos"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="postres"
+        <activity android:name=".PostreSActivity"
             android:label="Postres"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="bebidas"
+        <activity android:name=".BebidasActivity"
             android:label="Bebidas"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="tips"
+        <activity android:name=".TipsActivity"
             android:label="Tips de Cocina"
             android:screenOrientation="portrait">
         </activity>
 
-        <activity android:name="entrada1"
+        <activity android:name=".Entrada1Activity"
             android:label="entrada"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="entrada2"
+        <activity android:name=".Entrada2Activity"
             android:label="entrada"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="entrada3"
+        <activity android:name=".Entrada3Activity"
             android:label="entrada"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="entrada4"
+        <activity android:name=".Entrada4Activity"
             android:label="entrada"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="entrada5"
+        <activity android:name=".Entrada5Activity"
             android:label="entrada"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="sopa1"
+        <activity android:name=".Sopa1Activity"
             android:label="sopa"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="sopa2"
+        <activity android:name=".Sopa2Activity"
             android:label="sopa"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="sopa3"
+        <activity android:name=".Sopa3Activity"
             android:label="sopa"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="sopa4"
+        <activity android:name=".Sopa4Activity"
             android:label="sopa"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="sopa5"
+        <activity android:name=".Sopa5Activity"
             android:label="sopa"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="sopa6"
+        <activity android:name=".Sopa6Activity"
             android:label="sopa"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="sopa7"
+        <activity android:name=".Sopa7Activity"
             android:label="sopa"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="postre1"
+        <activity android:name=".Postre1Activity"
             android:label="postre"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="postre2"
+        <activity android:name=".Postre2Activity"
             android:label="postre"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="postre3"
+        <activity android:name=".Postre3Activity"
             android:label="postre"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="postre4"
+        <activity android:name=".Postre4Activity"
             android:label="postre"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="postre5"
+        <activity android:name=".Postre5Activity"
             android:label="postre"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="bebida1"
+        <activity android:name=".Bebida1Activity"
             android:label="bebida"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="bebida2"
+        <activity android:name=".Bebida2Activity"
             android:label="bebida"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="bebida3"
+        <activity android:name=".Bebida3Activity"
             android:label="bebida"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="bebida4"
+        <activity android:name=".Bebida4Activity"
             android:label="bebida"
             android:screenOrientation="portrait">
         </activity>
-        <activity android:name="bebida5"
+        <activity android:name=".Bebida5Activity"
             android:label="bebida"
             android:screenOrientation="portrait">
         </activity>
 
 
-        <activity android:name="descripcion"
+        <activity android:name=".DescripcionActivity"
             android:label="Descripcion"
             android:screenOrientation="portrait">
         </activity>
